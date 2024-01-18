@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About Us</title>
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="about.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<h1>Computer Engg</h1>
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html" class="active">About Us</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="about-home">
+		<h2>
+			About Us/
+		</h2>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- About section starts from here -->
+	<section id="features">
+		<h1>Awesome Features</h1>
+
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>Scholorship Facility</h3>
+				<p>
+					A scholarship is a form of financial aid awarded to students for further education
+				</p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>Best Teaching</h3>
+				<p>
+					Good teaching involves creating a supportive and inclusive learning environment.
+				</p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Certification</h3>
+				<p>
+					A type of academic credential that is typically earned after completing a short-term program of study, typically lasting less than two years.
+				</p>
+			</div>
+		</div>
+	</section>
+	<!-- About section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	
+	<!-- Features section ends from here -->
+
+
+	<!-- Trust section starts from here -->
+	<section id="trust">
+		
+		<div class="trust-img">
+			<img src="img/trust (1).png" alt="">
+			<img src="img/trust (2).png" alt="">
+			<img src="img/trust (3).png" alt="">
+			<img src="img/trust (4).png" alt="">
+			<img src="img/trust (5).png" alt="">
+			<img src="img/trust (6).png" alt="">
+		</div>
+	</section>
+	<!-- Trust section ends from here -->
+
+
+	<!-- Footer section starts from here -->
+<!-- Footer section starts from here -->
+<footer style=" justify-content: center;">
+		
+	<div class="footer-col">
+		<h3>SUBSCRIBE</h3>
+		<p>You can contact us with email..</p>
+
+		<div class="subscribe">
+			<input type="email" placeholder="Your email Address">
+			<a href="./contact.html" class="yellow">SUBSCRIBE</a>
+		</div>
+	</div>
+
+	<div class="copyright">
+		<p>
+			Copyright @ 2022 All rights reserved | This website is made by <a href="https://junaid-dev-portfolio.netlify.app/" target="_blank" style="color: aqua;">Junaid</a>
+		</p>
+		<div class="pro-links">
+			<i class="fab fa-facebook"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-linkedin-in"></i>
+		</div>
+	</div>
+</footer>
+<!-- Footer section ends from here -->
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
